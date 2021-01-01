@@ -1,0 +1,85 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {    .mobile-menu.mean-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+    .menu-area ul li a {
+        padding: 40px 18px;
+    }
+    .header-area.header-sticky.sticky .menu-area ul li a {
+        padding: 20px 18px;
+    }.header-area {
+        padding: 15px 0;
+    }.mean-container a.meanmenu-reveal {
+        top: 30px;
+    }.mean-container .mean-nav {
+        margin-top: 52px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .mobile-menu.mean-container {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .section-padding {
+        padding: 30px 0;
+    }
+
+    .contact-content {
+        margin-bottom: 20px;
+    }
+
+    .header-area {
+        padding: 10px 0;
+    }
+    .banner-area {
+        min-height: 400px;
+    }
+    .single-banner h1 {
+        font-size: 30px;
+    }
+    .btn {
+        padding: 0px 20px;
+        font-size: 20px;
+    }#service-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }#team-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }.pricing-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }#feadback {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }#feadback {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }.contact-content p {
+        padding-right: 0;
+    }.header-area.header-sticky.sticky .menu-area ul li a {
+        padding: 10px 15px;
+    }.portfolio-btn a {
+        padding: 10px 25px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
