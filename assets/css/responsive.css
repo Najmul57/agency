@@ -1,0 +1,42 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .section_heading h2 {
+        font-size: 40px;
+    }
+    .single-service img {
+        width: 100px;
+        background: #fff;
+        height: 100px;
+        margin: auto;
+        transition: all .5s ease-in-out;
+        border-radius: 50%;
+        padding: 20px;
+    } 
+    .advanced__search input {
+        padding: 10px;
+        width: 300px;
+    }
+    .country-back a {
+        font-size: 12px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+}

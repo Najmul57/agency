@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School|| Portfolio</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo2.svg" type="image/x-icon" />
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- light box -->
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+        <!-- top header -->
+        <div class="top_header">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row g-0 align-items-center justify-content-between">
+                    <!-- contact no -->
+                    <div class="col-8">
+                        <!-- contact -->
+                        <div class="header_contact">
+                            <!-- wrapper -->
+                            <ul class="d-flex align-items-center gap-3 flex-wrap">
+                                <!-- phone -->
+                                <li>
+                                    <a href="tel:+01937563157">
+                                        <span class="d-inline-block contact_header_icon"><i
+                                                class="fa-solid fa-phone"></i></span>
+                                        <span class="d-inline-block contact_header_text">+01937563157</span>
+                                    </a>
+                                </li>
+                                <!-- email -->
+                                <li>
+                                    <div class="socila_list">
+                                        <ul class="d-flex align-items-center gap-3">
+                                            <li>
+                                                <a class="social_icon" href="#" target="_blank"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="social_icon" href="#" target="blank"><i
+                                                        class="fa-brands fa-youtube"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="social_icon" href="#" target="blank"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- digital clock -->
+                    <div class="col-4 text-end">
+                        <!-- clock -->
+                        <ul class="profile">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block" href="">login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./index.html" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo2.svg" alt="" />
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./index.html">home</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="">about
+                                    <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+                                </a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="#">services</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="#">university</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallrypage.html">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contactus.html">contact</a>
+                            </li>
+
+                            <li class="header_nav_item">
+                                <a class="header_nav_link contact_btn btn_hover" href="">apply now</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./index.html">
+                        <img src="assets/image/logo2.svg" alt="" />
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./index.html">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <!-- <li>
+                                            <a href="./aboutus.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
+                                                </p>
+                                            </a>
+                                        </li> -->
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="#">
+                                <p class="d-flex gap-2">
+                                    <span>services</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="#">
+                                <p class="d-flex gap-2">
+                                    <span>university</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./gallrypage.html">
+                                <p class="d-flex gap-2">
+                                    <span>gallery</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contactus.html">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="main_btn btn_collapse btn_hover text-white justify-content-center" href="#"
+                                tabindex="0">apply now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- breadcrumb start -->
+    <div class="breadcrumb__area pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>About US</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- main -->
+    <div class="main">
+
+        <!-- about start -->
+        <div class="about__area pt-5">
+            <div class="container">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6">
+                        <div class="about__heading">
+                            <div class="section_heading">
+                                <h2>who we are?</h2>
+                                <span>who we are?</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis deserunt quam, rerum
+                                quisquam ad ipsa explicabo? Illo unde commodi eos ipsa quo rem est ipsum, numquam omnis
+                                iure quod.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aperiam cum quam,
+                                iste ad qui aut minus corrupti provident, vel culpa nam deleniti facere dignissimos
+                                praesentium iure beatae! Impedit necessitatibus a unde distinctio harum nobis aspernatur
+                                reprehenderit, quos nihil odio repudiandae recusandae voluptatem asperiores nostrum,
+                                earum, optio voluptatum beatae accusamus ipsum voluptates debitis obcaecati eaque
+                                blanditiis officia? Laboriosam laborum, non aspernatur molestias eaque modi fugit
+                                voluptatem. Odio voluptate, voluptatem id iure excepturi, dolore itaque earum sapiente
+                                laudantium iste quas vel recusandae consectetur impedit deleniti ex illo maiores placeat
+                                labore? Suscipit id inventore ea saepe obcaecati aperiam quia sapiente at amet?</p>
+                            <a class="header_nav_link contact_btn btn_hover d-inline-block mt-3" href="">contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about__image">
+                            <img src="assets/image/about/aboutbanner.png" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 order-last order-md-first">
+                        <div class="vission__image ">
+                            <img src="assets/image/about/vission.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-first order-md-last">
+                        <div class="vission__content">
+                            <div class="section_heading">
+                                <h2>mission</h2>
+                                <span>our mission</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis deserunt quam, rerum
+                                quisquam ad ipsa explicabo? Illo unde commodi eos ipsa quo rem est ipsum, numquam omnis
+                                iure quod.</p>
+
+                            <ul>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 ">
+                        <div class="vission__content">
+                            <div class="section_heading">
+                                <h2>vission</h2>
+                                <span>our vission</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis deserunt quam, rerum
+                                quisquam ad ipsa explicabo? Illo unde commodi eos ipsa quo rem est ipsum, numquam omnis
+                                iure quod.</p>
+
+                            <ul>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="vission__image">
+                            <img src="assets/image/about/vission.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 order-last order-md-first">
+                        <div class="vission__image">
+                            <img src="assets/image/about/banner.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-first order-md-last">
+                        <div class="vission__content">
+                            <div class="section_heading">
+                                <h2>why choose us?</h2>
+                                <span>why special SIAC</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nobis deserunt quam, rerum
+                                quisquam ad ipsa explicabo? Illo unde commodi eos ipsa quo rem est ipsum, numquam omnis
+                                iure quod.</p>
+
+                            <ul>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="vission__card__image">
+                                        <img src="assets/image/about/chart.svg" class="w-100" alt="">
+                                    </span>
+                                    <span class="vission__card__content">
+                                        <h4>We reiterate our vision</h4>
+                                        <p>We reiterate our vision vividly as we welcome a new member to our family, so
+                                            the new person has the chance to share a common interest.</p>
+                                    </span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about end -->
+
+        <!-- counter start -->
+        <div class="counter__wrapper pb-5">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-md-3">
+                        <div class="single__counter">
+                            <h2 class="counter">3+</h2>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single__counter">
+                            <h2>3+</h2>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single__counter">
+                            <h2>3+</h2>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single__counter">
+                            <h2>3+</h2>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- counter end -->
+
+        <!-- team start -->
+        <div class="team__area pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_heading text-center">
+                            <h2>Our Team</h2>
+                            <span>Who can help You?</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4 gy-3">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single__team position-relative">
+                            <div class="team__image">
+                                <img src="assets/image/team/222.jpg" alt="">
+                            </div>
+                            <div class="team__content">
+                                <h4>rahim mia</h4>
+                                <p>Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single__team position-relative">
+                            <div class="team__image">
+                                <img src="assets/image/team/222.jpg" alt="">
+                            </div>
+                            <div class="team__content">
+                                <h4>rahim mia</h4>
+                                <p>Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single__team position-relative">
+                            <div class="team__image">
+                                <img src="assets/image/team/222.jpg" alt="">
+                            </div>
+                            <div class="team__content">
+                                <h4>rahim mia</h4>
+                                <p>Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team end -->
+
+        <!-- partnet start -->
+        <div class="partner__area pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_heading">
+                            <h2>partner</h2>
+                            <span>partner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="partner__active">
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/animation.jpg" alt="">
+                            </div>
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/arts.png" alt="">
+                            </div>
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/education.jpg" alt="">
+                            </div>
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/animation.jpg" alt="">
+                            </div>
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/animation.jpg" alt="">
+                            </div>
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/animation.jpg" alt="">
+                            </div>
+                            <div class="single__partnet">
+                                <img src="assets/image/partner/animation.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- partnet end -->
+
+    </div>
+    <!-- main end -->
+
+    <!-- footer section -->
+    <footer class="footer_section pt-5 pb-5">
+        <!-- container -->
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="row gy-4">
+                    <div class="col-md-12 col-lg-5">
+                        <!-- footer item -->
+                        <div class="footer_item pe-3">
+                            <!-- footer logo -->
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="assets/image/logo2.svg" alt="" /></a>
+                            </div>
+                            <!-- footer text -->
+                            <p class="footer_text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Veniam, alias optio quod eveniet magni explicabo cupiditate
+                                adipisci ducimus ut ad hic in, praesentium id illo molestias
+                                magnam repudiandae incidunt expedita?
+                            </p>
+
+                            <div class="socila_list mt-3">
+                                <ul class="d-flex align-items-center gap-3">
+                                    <li>
+                                        <a class="social_icon" href="#" target="_blank"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="social_icon" href="#" target="blank"><i
+                                                class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="social_icon" href="#" target="blank"><i
+                                                class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2">
+                        <div class="footer_item">
+                            <h4 class="footer_item_title">Top University</h4>
+
+                            <div class="footer_nav">
+                                <ul>
+                                    <li>
+                                        <a href="#">Dhaka University</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Khulna University</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2">
+                        <div class="footer_item">
+                            <h4 class="footer_item_title">Top Courses</h4>
+                            <div class="footer_nav">
+                                <ul>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="footer_item">
+                            <h4 class="footer_item_title">Connect With US</h4>
+                            <!-- footer contact -->
+                            <div class="footer_contact">
+                                <ul>
+                                    <li>
+                                        <span class="contact_icon social_icon"><i
+                                                class="fa-solid fa-location-dot"></i></span>
+                                        <a class="contact_text" href="">Uttata, Dhaka </a>
+                                    </li>
+                                    <li>
+                                        <span class="contact_icon social_icon"><i class="fa-solid fa-phone"></i></span>
+                                        <a class="contact_text" href=""> 01937563157</a>
+                                    </li>
+                                    <li>
+                                        <span class="contact_icon social_icon"><i
+                                                class="fa-solid fa-envelope"></i></span>
+                                        <a class="contact_text" href=""> info@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
+</html>

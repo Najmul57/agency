@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School|| Portfolio</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo2.svg" type="image/x-icon" />
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- light box -->
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+        <!-- top header -->
+        <div class="top_header">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row g-0 align-items-center justify-content-between">
+                    <!-- contact no -->
+                    <div class="col-8">
+                        <!-- contact -->
+                        <div class="header_contact">
+                            <!-- wrapper -->
+                            <ul class="d-flex align-items-center gap-3 flex-wrap">
+                                <!-- phone -->
+                                <li>
+                                    <a href="tel:+01937563157">
+                                        <span class="d-inline-block contact_header_icon"><i
+                                                class="fa-solid fa-phone"></i></span>
+                                        <span class="d-inline-block contact_header_text">+01937563157</span>
+                                    </a>
+                                </li>
+                                <!-- email -->
+                                <li>
+                                    <div class="socila_list">
+                                        <ul class="d-flex align-items-center gap-3">
+                                            <li>
+                                                <a class="social_icon" href="#" target="_blank"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="social_icon" href="#" target="blank"><i
+                                                        class="fa-brands fa-youtube"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="social_icon" href="#" target="blank"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- digital clock -->
+                    <div class="col-4 text-end">
+                        <!-- clock -->
+                        <ul class="profile">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block" href="">login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./index.html" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo2.svg" alt="" />
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./index.html">home</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="">about
+                                    <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+                                </a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="#">services</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="#">university</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallrypage.html">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contactus.html">contact</a>
+                            </li>
+
+                            <li class="header_nav_item">
+                                <a class="header_nav_link contact_btn btn_hover" href="">apply now</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./index.html">
+                        <img src="assets/image/logo2.svg" alt="" />
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./index.html">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <!-- <li>
+                                            <a href="./aboutus.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
+                                                </p>
+                                            </a>
+                                        </li> -->
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="#">
+                                <p class="d-flex gap-2">
+                                    <span>services</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="#">
+                                <p class="d-flex gap-2">
+                                    <span>university</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./gallrypage.html">
+                                <p class="d-flex gap-2">
+                                    <span>gallery</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contactus.html">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="main_btn btn_collapse btn_hover text-white justify-content-center" href="#"
+                                tabindex="0">apply now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- breadcrumb start -->
+    <div class="breadcrumb__area pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="course_university.html">University</a></li>
+                        <li>Dhaka University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- main -->
+    <div class="main">
+
+        <!-- university details start -->
+        <div class="university__details pt-5 pb-5">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-8">
+                        
+                        <div class="university__info card p-3">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="uni__info1" data-bs-toggle="tab" data-bs-target="#uni__info1-pane" type="button" role="tab" aria-controls="uni__info1-pane" aria-selected="true">About</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="uni__info2" data-bs-toggle="tab" data-bs-target="#uni__info2-pane" type="button" role="tab" aria-controls="uni__info2-pane" aria-selected="false">Course & Fee</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="uni__info3" data-bs-toggle="tab" data-bs-target="#uni__info3-pane" type="button" role="tab" aria-controls="uni__info3-pane" aria-selected="false">Address</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="uni__info4" data-bs-toggle="tab" data-bs-target="#uni__info4-pane" type="button" role="tab" aria-controls="uni__info4-pane" aria-selected="false">Gallery</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="uni__info5" data-bs-toggle="tab" data-bs-target="#uni__info5-pane" type="button" role="tab" aria-controls="uni__info5-pane" aria-selected="false">Facilities</button>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="uni__info1-pane" role="tabpanel" aria-labelledby="uni__info1" tabindex="0">
+                                    <div class="university__about__content p-3">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis, ex labore voluptate modi iste vitae voluptatem? Ab praesentium dolore at tenetur laudantium, velit aut id maxime exercitationem deleniti quam?</p>
+                                        <p class="university__about__content__hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dignissimos, mollitia similique quidem, nihil, rerum odio nulla saepe impedit praesentium laboriosam sapiente corporis nobis modi explicabo aliquid minus sit corrupti. Ipsum mollitia fugiat, aliquid non, quidem numquam nisi alias maiores nemo quod saepe expedita velit consequuntur. Alias nulla repellendus eaque saepe id eum, voluptatibus quis cupiditate officia labore consectetur et iusto, reiciendis, officiis fugit eos amet. Nobis veritatis, laborum voluptate aliquam explicabo praesentium modi corrupti porro, asperiores numquam consectetur magni illum consequuntur molestias nemo enim dignissimos sint eveniet repudiandae nihil quaerat expedita. Nobis asperiores placeat voluptatum suscipit, aperiam obcaecati? Dolore?</p>
+                                        <button id="show-more">Show More</button>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="uni__info2-pane" role="tabpanel" aria-labelledby="uni__info2" tabindex="0">
+                                    <div class="university__about__content p-2 border mt-3">
+                                        <table class="table table-hover">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Specialization</th>
+                                                <th scope="col">Fees Per Year</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="uni__info3-pane" role="tabpanel" aria-labelledby="uni__info3" tabindex="0">
+                                    <div class="university__about__content p-2 border mt-3">
+                                        <div class="text-center mb-3">
+                                            <h3>Dhaka University</h3>
+                                            <span>Dhaka, Bangladesh</span>
+                                        </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7302.229724633817!2d90.36736068950245!3d23.77892378268418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0b0f09aac43%3A0xf86561e78ef39ed9!2sAgargaon%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1696475806303!5m2!1sen!2sbd" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="uni__info4-pane" role="tabpanel" aria-labelledby="uni__info4" tabindex="0">
+                                    <div class="university__about__content p-2 border mt-3">
+                                        <div class="university__about__gallery">
+                                            <div class="row g-3">                    
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                                    <a href="assets/image/blog/japan.jpg" data-lightbox="image-1" data-title="My caption" class="single__photo">
+                                                        <img src="assets/image/blog/making.jpg" alt="">
+                                                    </a>
+                                                </div>                   
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                                    <a href="assets/image/blog/making.jpg" data-lightbox="image-1" data-title="My caption" class="single__photo">
+                                                        <img src="assets/image/blog/making.jpg" alt="">
+                                                    </a>
+                                                </div>                   
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                                    <a href="assets/image/blog/making.jpg" data-lightbox="image-1" data-title="My caption" class="single__photo">
+                                                        <img src="assets/image/blog/making.jpg" alt="">
+                                                    </a>
+                                                </div>      
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="uni__info5-pane" role="tabpanel" aria-labelledby="uni__info5" tabindex="0">
+                                    <div class="university__about__content p-2 border mt-3">
+                                        <ul class="university__facilities">
+                                            <li>
+                                                <img src="assets/image/facilities/251533205253.png" alt="">
+                                                <span>boys hostel</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/311533205066.png" alt="">
+                                                <span>girls hostel</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/391533209103.png" alt="">
+                                                <span>computer services</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/581533205206.png" alt="">
+                                                <span>counslling</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/641533204627.png" alt="">
+                                                <span>internet</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/731533204411.png" alt="">
+                                                <span>sports</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/761533204567.png" alt="">
+                                                <span>library</span>
+                                            </li>
+                                            <li>
+                                                <img src="assets/image/facilities/881533204467.png" alt="">
+                                                <span>gym</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sidebar__university card p-3">
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                            <div class="sidebar__single__universitiy d-flex align-items-center justify-content-between">
+                                <div class="sidebar__single__uni__info d-flex align-items-center">
+                                    <img src="assets/image/universitiy/university.jpg" alt="">
+                                    <a href="">dhaka universitiy <span>dhaka</span></a>
+                                </div>
+                                <a class="header_nav_link contact_btn btn_hover d-inline-block " href="">apply now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- university details end -->
+
+    </div>
+    <!-- main end -->
+
+    <!-- footer section -->
+    <footer class="footer_section pt-5 pb-5">
+        <!-- container -->
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="row gy-4">
+                    <div class="col-md-12 col-lg-5">
+                        <!-- footer item -->
+                        <div class="footer_item pe-3">
+                            <!-- footer logo -->
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="assets/image/logo2.svg" alt="" /></a>
+                            </div>
+                            <!-- footer text -->
+                            <p class="footer_text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Veniam, alias optio quod eveniet magni explicabo cupiditate
+                                adipisci ducimus ut ad hic in, praesentium id illo molestias
+                                magnam repudiandae incidunt expedita?
+                            </p>
+
+                            <div class="socila_list mt-3">
+                                <ul class="d-flex align-items-center gap-3">
+                                    <li>
+                                        <a class="social_icon" href="#" target="_blank"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="social_icon" href="#" target="blank"><i
+                                                class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="social_icon" href="#" target="blank"><i
+                                                class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2">
+                        <div class="footer_item">
+                            <h4 class="footer_item_title">Top University</h4>
+
+                            <div class="footer_nav">
+                                <ul>
+                                    <li>
+                                        <a href="#">Dhaka University</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Khulna University</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2">
+                        <div class="footer_item">
+                            <h4 class="footer_item_title">Top Courses</h4>
+                            <div class="footer_nav">
+                                <ul>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="footer_item">
+                            <h4 class="footer_item_title">Connect With US</h4>
+                            <!-- footer contact -->
+                            <div class="footer_contact">
+                                <ul>
+                                    <li>
+                                        <span class="contact_icon social_icon"><i
+                                                class="fa-solid fa-location-dot"></i></span>
+                                        <a class="contact_text" href="">Uttata, Dhaka </a>
+                                    </li>
+                                    <li>
+                                        <span class="contact_icon social_icon"><i class="fa-solid fa-phone"></i></span>
+                                        <a class="contact_text" href=""> 01937563157</a>
+                                    </li>
+                                    <li>
+                                        <span class="contact_icon social_icon"><i
+                                                class="fa-solid fa-envelope"></i></span>
+                                        <a class="contact_text" href=""> info@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- zooom -->
+    <script type="text/javascript" src="assets/js/lightbox.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
