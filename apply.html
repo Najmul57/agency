@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School|| Portfolio</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo2.svg" type="image/x-icon" />
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- light box -->
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+
+
+    <!-- breadcrumb start -->
+    <div class="breadcrumb__area pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Apply form</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- main -->
+    <div class="main">
+
+        <!-- apply start -->
+        <div class="apply__area pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1 col-12">
+                        <form action="" method="" class="apply__form">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" id="fname" class="form-control" placeholder="First name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" id="lname" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="email">Email</label>
+                                        <input type="text" id="email" class="form-control" placeholder="enter email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="number">Whatsapp</label>
+                                        <input type="text" id="number" class="form-control"
+                                            placeholder="whatsapp number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="course__select">Interest Course</label> <br>
+                                        <select name="course__select" id="course__select" class="course__select">
+                                            <option selected disabled>Select Course</option>
+                                            <option value="">Bangla</option>
+                                            <option value="">English</option>
+                                            <option value="">Math</option>
+                                            <option value="">Computer Science</option>
+                                        </select>
+                                        <input type="checkbox" id="another__course" name="another__course" value="Bike">
+                                        <label for="another__course"> if you want another course?</label>
+                                        <input type="text" class="form-control another__course d-none"
+                                            placeholder="Enter course name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="university__select">Interest University</label> <br>
+                                        <select name="university__select" id="university__select"
+                                            class="university__select">
+                                            <option selected disabled>Select university</option>
+                                            <option value="">Sharda University</option>
+                                            <option value="">Panjab University</option>
+                                        </select>
+                                        <input type="checkbox" id="another__university" name="another__university"
+                                            value="Bike">
+                                        <label for="another__university"> if you want another University?</label>
+                                        <input type="text" class="form-control another__university d-none"
+                                            placeholder="Enter university name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="bachelor__course__select">Interest Course Bacholor (optional)</label> <br>
+                                        <select name="bachelor__course__select" id="bachelor__course__select" class="bachelor__course__select">
+                                            <option selected disabled>Select Course</option>
+                                            <option value="">Bangla</option>
+                                            <option value="">English</option>
+                                            <option value="">Math</option>
+                                            <option value="">Computer Science</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="masters__course__select">Interest Course Masters (optional)</label> <br>
+                                        <select name="masters__course__select" id="masters__course__select" class="masters__course__select">
+                                            <option selected disabled>Select Course</option>
+                                            <option value="">Bangla</option>
+                                            <option value="">English</option>
+                                            <option value="">Math</option>
+                                            <option value="">Computer Science</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="ssc">Upload SSC Marksheet</label>
+                                        <input type="file" id="ssc" class="form-control"
+                                            onchange="previewImage('ssc', 'imagePreviewSsc')">
+                                    </div>
+
+                                    <div id="imagePreviewSsc" class="mt-2">
+                                        <img src="assets/image/no-image.jpg" style="width: 100px;" alt="Default Image">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="hsc">Upload HSC Marksheet</label>
+                                        <input type="file" id="hsc" class="form-control"
+                                            onchange="previewImage('hsc', 'imagePreviewHsc')">
+                                    </div>
+
+                                    <div id="imagePreviewHsc" class="mt-2">
+                                        <img src="assets/image/no-image.jpg" style="width: 100px;" alt="Default Image">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="proof">Upload Your ID Proof</label>
+                                        <input type="file" id="proof" class="form-control"
+                                            onchange="previewImage('proof', 'imagePreviewProof')">
+                                    </div>
+
+                                    <div id="imagePreviewProof" class="mt-2">
+                                        <img src="assets/image/no-image.jpg" style="width: 100px;" alt="Default Image">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="signature">Upload Your Signature</label>
+                                        <input type="file" id="signature" class="form-control"
+                                            onchange="previewImage('signature', 'imagePreviewSignature')">
+                                    </div>
+
+                                    <div id="imagePreviewSignature" class="mt-2">
+                                        <img src="assets/image/no-image.jpg" style="width: 100px;" alt="Default Image">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group mt-3">
+                                        <label for="passport__photo">Upload Your Passport Size Photo</label>
+                                        <input type="file" id="passport__photo" class="form-control"
+                                            onchange="previewImage('passport__photo','imagePreviewPhoto')">
+                                    </div>
+
+                                    <div id="imagePreviewPhoto" class="mt-2">
+                                        <img src="assets/image/no-image.jpg" style="width: 100px;" alt="Default Image">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group mt-3 mb-3">
+                                        <label for="message">Message </label>
+                                        <textarea name="message" id="message" class="form-control" cols="30" rows="10"
+                                            placeholder="your message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="main_btn">Apply Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- apply end -->
+
+    </div>
+    <!-- main end -->
+
+
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- zooom -->
+    <script type="text/javascript" src="assets/js/lightbox.js"></script>
+    <!-- select2 -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <!-- scrollup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        function previewImage(inputId, previewId) {
+            var input = document.getElementById(inputId);
+            var preview = document.getElementById(previewId);
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    preview.innerHTML = '<img src="' + e.target.result + '" style="width: 100px;" alt="Uploaded Image">';
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                preview.innerHTML = '<img src="assets/image/no-image.jpg" style="width: 100px;" alt="Default Image">';
+            }
+        }
+    </script>
+
+    <script>
+        const course = document.getElementById("another__course");
+        const courseField = document.querySelector(".another__course");
+
+        course.addEventListener("change", function () {
+            if (course.checked) {
+                courseField.classList.remove("d-none");
+            } else {
+                courseField.classList.add("d-none");
+            }
+        });
+    </script>
+    <script>
+        const university = document.getElementById("another__university");
+        const universityField = document.querySelector(".another__university");
+
+        university.addEventListener("change", function () {
+            if (university.checked) {
+                universityField.classList.remove("d-none");
+            } else {
+                universityField.classList.add("d-none");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -33,6 +33,36 @@
     .country-back a {
         font-size: 12px;
     }
+    .single__count h4 {
+        letter-spacing: 0;
+        font-size: 18px;
+    }
+
+    .single__count img {
+        width: 60px;
+    }
+
+    .single__count h2 {
+        font-size: 30px;
+    }
+
+    .section__heading h2 {
+        font-size: 30px;
+    }
+
+    .section__heading p {
+        font-size: 25px;
+    }
+
+    .university__contact h5 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .banner__active .slick-dots {
+        justify-content: end;
+        margin-right: 20px;
+    }
 }
 
 /* Large Mobile :480px. */

@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
 }
 
 a {
@@ -24,13 +25,15 @@ hr {
     margin: 0px;
     padding: 0px;
 }
-.container{
+
+.container {
     max-width: 1320px;
     width: 100%;
     margin: 0px auto;
     padding: 0px 15px;
 }
-body{
+
+body {
     background-image: url(../image/body.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -38,6 +41,7 @@ body{
     width: 100%;
     min-height: 100vh;
 }
+
 :root {
     --main-color: rgb(109 40 217/1);
     --main-color: #01479b;
@@ -102,7 +106,7 @@ img {
     height: 100%;
     width: 100%;
     color: var(--text-color);
-    font-family: "Font Awesome 6 Pro";
+    font-family: 'Prompt', sans-serif;
     font-weight: 600;
     content: "\f053";
     display: grid;
@@ -113,7 +117,7 @@ img {
 }
 
 .slick-next::after {
-    font-family: "Font Awesome 6 Pro";
+    font-family: 'Prompt', sans-serif;
     font-weight: 600;
     content: "\f054";
 }
@@ -230,21 +234,28 @@ img {
     z-index: 9;
     border-right: 2px solid #fff;
     transform: skewX(-45deg);
-}.breadcrumb__area li a {
+}
+
+.breadcrumb__area li a {
     color: #fff;
 }
 
 /* heading */
 .section_heading h2 {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #c0c6cf;
+    color: transparent;
     font-size: 50px;
+    line-height: 42px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d9d9d9;
 }
 
 .section_heading {
     position: relative;
 }
+
 .section_heading span {
     position: absolute;
     top: 50%;
@@ -252,5 +263,147 @@ img {
     font-weight: 700;
     text-transform: capitalize;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+}
+
+.main_btn {
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #4555f4;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    font-weight: 600;
+    z-index: 2;
+}
+
+
+.main_btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.main_btn:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.slick-dots {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li a {
+    text-indent: -9999;
+}
+
+.slick-dots li button {
+    text-indent: -99999px;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+    transition: var(--transition);
+}
+
+.slick-dots li.slick-active button {
+    width: 30px;
+}
+
+
+.slick_arrow {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    padding-right: 10px;
+}
+
+
+.slick_arrow .slick-prev,
+.slick_arrow .slick-next {
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: transparent;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    position: relative;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+/* Original styling for navigation arrows */
+.slick_arrow .slick-prev::after,
+.slick_arrow .slick-next::after {
+    position: absolute;
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    display: grid;
+    place-content: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f104";
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+    /* Add a transition for smooth effect */
+}
+
+/* New styling for navigation arrows on hover */
+.slick_arrow .slick-prev:hover::after,
+.slick_arrow .slick-next:hover::after {
+    background-color: #5E23A6;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+}
+
+
+.slick_arrow .slick-next::after,
+.slick_arrow .slick-next::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+}
+
+.slick_arrow i {
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: var(--transition);
+    font-size: 15px;
+}
+
+.slick_arrow i:hover {
+    background: #4555f4;
+    color: #fff;
+    border: 1px solid transparent;
 }

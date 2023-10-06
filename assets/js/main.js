@@ -71,7 +71,7 @@ $(".review__active").slick({
   speed: 300,
   arrows: false,
   autoplay: true,
-  speed: 1000,
+  speed: 2000,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [
@@ -101,6 +101,40 @@ $(".review__active").slick({
 
 // slider end
 
+// partnet start
+
+$('.partnet__active').slick({
+  dots: true,
+  arrows: false,
+  infinite: true,
+  autoplaySpeed: 1000,
+  autoplay: true,
+  speed: 600,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4,
+      }
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 2
+      }
+    }
+  ]
+});
+// partnet end
+
 // university show/less
 document.addEventListener("DOMContentLoaded", function () {
   const showMoreButton = document.getElementById("show-more");
@@ -125,3 +159,21 @@ lightbox.option({
   'fadeDuration':600,
   'alwaysShowNavOnTouchDevices':true
 })
+
+// scrollup
+$.scrollUp({
+  scrollName: 'scrollUp', // Element ID
+  topDistance: '300', // Distance from top before showing element (px)
+  topSpeed: 300, // Speed back to top (ms)
+  animation: 'fade', // Fade, slide, none
+  animationInSpeed: 200, // Animation in speed (ms)
+  animationOutSpeed: 200, // Animation out speed (ms)
+  scrollText: '<i class="fa-solid fa-angle-up"></i>', // Text for element
+  activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+});
+
+//select2
+$('.course__select').select2();
+$('.university__select').select2();
+$('.bachelor__course__select').select2();
+$('.masters__course__select').select2();
