@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIAC</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo2.svg" type="image/x-icon" />
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- light box -->
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+        <!-- top header -->
+        <div class="top_header">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row g-0 align-items-center justify-content-between">
+                    <!-- contact no -->
+                    <div class="col-8">
+                        <!-- contact -->
+                        <div class="header_contact">
+                            <!-- wrapper -->
+                            <ul class="d-flex align-items-center gap-3 flex-wrap">
+                                <!-- phone -->
+                                <li>
+                                    <a href="tel:+01937563157">
+                                        <span class="d-inline-block contact_header_icon"><i
+                                                class="fa-solid fa-phone"></i></span>
+                                        <span class="d-inline-block contact_header_text">+01937563157</span>
+                                    </a>
+                                </li>
+                                <!-- email -->
+                                <li>
+                                    <div class="socila_list">
+                                        <ul class="d-flex align-items-center gap-3">
+                                            <li>
+                                                <a class="social_icon" href="#" target="_blank"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="social_icon" href="#" target="blank"><i
+                                                        class="fa-brands fa-youtube"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="social_icon" href="#" target="blank"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- digital clock -->
+                    <div class="col-4 text-end">
+                        <!-- clock -->
+                        <ul class="profile">
+                            <li class="header_nav_item">
+                                <a class="main_btn" href="">login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./index.html" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo2.svg" alt="" />
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./index.html">home</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="">about
+                                    <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+                                </a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="#">services</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="#">university</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallrypage.html">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contactus.html">contact</a>
+                            </li>
+
+                            <li class="header_nav_item">
+                                <a class="main_btn" href="">apply now</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./index.html">
+                        <img src="assets/image/logo2.svg" alt="" />
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./index.html">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <!-- <li>
+                                            <a href="./aboutus.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
+                                                </p>
+                                            </a>
+                                        </li> -->
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="#">
+                                <p class="d-flex gap-2">
+                                    <span>services</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="#">
+                                <p class="d-flex gap-2">
+                                    <span>university</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./gallrypage.html">
+                                <p class="d-flex gap-2">
+                                    <span>gallery</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contactus.html">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="main_btn btn_collapse btn_hover text-white justify-content-center" href="#"
+                                tabindex="0">apply now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+       <!-- breadcrumb start -->
+       <div class="breadcrumb__area" style="background-image: url(assets/image/study/canada.jpg);">
+        <h2>service name</h2>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- main -->
+    <div class="main">
+
+       <!-- service details start  -->
+       <div class="service__details pb-5 pt-5">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-8">
+                <div class="service__details__content card p-2 mb-3">
+                    <img src="assets/image/blog/india.png" alt="">
+                    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloremque!</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam expedita commodi magni suscipit, dignissimos deleniti consequatur quidem dolorum pariatur voluptatibus architecto? Esse magni unde architecto, libero non quam quaerat accusamus?</p>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at tempora reprehenderit. Sit quia dolor, suscipit facere dicta assumenda officiis neque? Minus dolore ullam itaque dicta quia, doloribus quisquam dolorem!</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus hic, iusto rerum excepturi aut delectus tenetur at ipsum consequuntur perspiciatis libero maiores autem placeat temporibus enim id voluptate earum officiis.</p>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/5jRPqIBSixs?si=Obq0aFKUno-w0F3h&amp;start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nam maiores culpa voluptatem modi excepturi, optio, dignissimos libero quod hic itaque sunt ullam fugiat deleniti voluptate expedita cupiditate repudiandae consequatur.</p>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/hUi2EYuyFYY?si=bziVQnDk9T2uB-Mj&amp;start=261" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+               </div>
+               <div class="col-lg-4">
+                <div class="blog__list">
+                    <h3>service list</h3>
+                    <ul class="card p-2">
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/accomodation.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/admission.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/air-ticket.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/career.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/consultancy.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/interview.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                        <li><a href="service_details.html">
+                            <img src="assets/image/services/scholarship.png" alt="">
+                            <h4>Accomodation</h4>
+                        </a></li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+        </div>
+       </div>
+       <!-- service details end  -->
+
+    </div>
+    <!-- main end -->
+
+    <!-- footer star -->
+    <footer>
+        <div class="footer__area pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                        <div class="footer-widget">
+                            <div class="footer__logo"></div>
+                            <div class="footer__about">
+                                <div class="single__footer__about">
+                                    <h6>Head Office</h6>
+                                    <p>Uttara, Dhaka, Bangladesh</p>
+                                </div>
+                                <div class="single__footer__about">
+                                    <h6>About Consultancy</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam in incidunt,
+                                        numquam illo, non minima odio sint laboriosam explicabo aut laborum deleniti
+                                        optio aliquam, temporibus autem libero nisi voluptatum rem!</p>
+                                </div>
+                            </div>
+                            <ul class="footer__social d-flex align-items-center gap-3 mb-3">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                        <div class="footer-widget footer__menu">
+                            <div class="footer__title">Quick Links</div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                        <div class="footer-widget footer__menu">
+                            <div class="footer__title">Study Abroad</div>
+                            <ul>
+                                <li><a href="#">Study In USA</a></li>
+                                <li><a href="#">Study In UK</a></li>
+                                <li><a href="#">Study In Canada</a></li>
+                                <li><a href="#">Study In Australia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                        <div class="footer__about">
+                            <div class="footer__title">Contact</div>
+                            <div class="single__footer__about">
+                                <h6><i class="fa fa-microphone"></i> Visa Information</h6>
+                                <p>
+                                    <a href="tel:+88001937563157">01937563157</a>,
+                                    <a href="tel:+88001937563157">01937563157</a>,
+                                    <a href="tel:+88001937563157">01937563157</a>
+                                </p>
+                            </div>
+                            <div class="single__footer__about">
+                                <h6><i class="fa fa-microphone"></i> Air Ticket Information</h6>
+                                <p>
+                                    <a href="tel:+88001937563157">01937563157</a>,
+                                    <a href="tel:+88001937563157">01937563157</a>,
+                                    <a href="tel:+88001937563157">01937563157</a>
+                                </p>
+                            </div>
+                            <div class="single__footer__about">
+                                <h6><i class="fa fa-microphone"></i> Student Consultancy</h6>
+                                <p>
+                                    <a href="tel:+88001937563157">01937563157</a>,
+                                    <a href="tel:+88001937563157">01937563157</a>,
+                                    <a href="tel:+88001937563157">01937563157</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright text-center pt-3 pb-3">
+            <p>Copyright &copy;
+                <script>document.write(new Date().getFullYear())</script> <strong><a href="index.html"
+                        class="text-white">SIAC</a></strong> All Rights
+                Reserved
+            </p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+            (function () {
+                var options = {
+                    whatsapp: "+8801937563157",
+                    button_color: "#FF6550",
+                    position: "right",
+                };
+                var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })();
+
+
+        setTimeout(() => {
+            var x = document.getElementsByClassName("sbsi7l-0 evMtho");
+            x[0].remove();
+        }, 1000)
+    </script>
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- zooom -->
+    <script type="text/javascript" src="assets/js/lightbox.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <!-- scrollup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -30,6 +30,8 @@ $(".slider__active").slick({
   slidesToScroll: 1,
 });
 
+
+
 // slider start
 $(".partner__active").slick({
   dots: false,
@@ -177,3 +179,7 @@ $('.course__select').select2();
 $('.university__select').select2();
 $('.bachelor__course__select').select2();
 $('.masters__course__select').select2();
+$('.masters__course__select').select2();
+$('.country').select2();
+$('.payment_type').select2();
+$('.district').select2();

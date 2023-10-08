@@ -57,12 +57,16 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--text-color);
-    text-transform: capitalize;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     gap: 6px;
-    line-height: 24px;
+    line-height: 1;
     transition: var(--transition);
+}
+
+.sidebar__university .main_btn {
+    padding: 10px;
 }
 
 .header_nav_item:not(:last-child):hover .header_nav_link {
@@ -531,6 +535,39 @@ a.single__course:hover img {
     background: #8195f1;
 }
 
+.study_country_headline {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.study_country_headline span {
+    font-size: 50px;
+    color: #4555F4;
+    border-bottom: 2px solid;
+}
+
+.country__info p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.study__facilities h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.study__facilities ul {
+    margin-left: 50px;
+}
+
+.study__facilities ul li {
+    list-style: disc;
+    font-size: 17px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 15px;
+}
+
 /* country end */
 
 
@@ -581,6 +618,21 @@ a.single__course:hover img {
 }
 
 /* university end */
+
+/* video start */
+.video-wrapper {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* video end */
 
 /* review start */
 
@@ -681,6 +733,7 @@ a.single__course:hover img {
     margin-bottom: 0;
     padding: 8px 0;
 }
+
 /* review end */
 
 
@@ -1026,6 +1079,54 @@ ul.university__facilities li:hover {
     transform: translateY(-5px);
 }
 
+.university__fees_table .fees {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.university__fees_table {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.university__fees_table:last-child {
+    margin-bottom: 0;
+}
+
+.university__fees_table .fees span small {
+    color: #4555f4;
+}
+
+.university__fees_table .fees span {
+    width: 33.33%;
+}
+
+.university__fees_table .fees span:last-child {
+    text-align: end;
+}
+
+.university__fees_heading {
+    display: flex;
+    justify-content: space-between;
+    background: #f6fdfe;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.university__fees_heading span {
+    font-size: 18px;
+}
+
+.university__fees_table .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
 /* university details end */
 
 
@@ -1153,22 +1254,38 @@ ul.university__facilities li:hover {
 div#imagePreview img {
     width: 100px;
 }
+
 form.apply__form input {
     padding: 10px;
 }
 
-form.apply__form input:focus, form.apply__form textarea:focus {
+form.apply__form input:focus,
+form.apply__form textarea:focus {
     box-shadow: none;
 }
-.apply__form .select2-container {
+
+.apply__form .select2-container,
+.payfee__form .select2-container {
     width: 100% !important;
 }
-.apply__form .select2-container--default .select2-selection--single {
+
+.apply__form .select2-container--default .select2-selection--single,
+.payfee__form .select2-container--default .select2-selection--single {
     height: 42px;
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
 }
-.apply__form .select2-container--default .select2-selection--single .select2-selection__arrow {
+
+.apply__form .select2-container--default .select2-selection--single .select2-selection__arrow,
+.payfee__form .select2-container--default .select2-selection--single .select2-selection__arrow {
     top: 8px !important;
+}
+
+.payfee__form input:focus {
+    box-shadow: none;
+}
+
+.payfee__form input {
+    padding: 10px;
 }

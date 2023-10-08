@@ -37,6 +37,7 @@ body {
     background-image: url(../image/body.webp);
     background-repeat: no-repeat;
     background-position: center;
+    /* position: relative; */
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -190,55 +191,40 @@ img {
     transform: rotate(45deg);
 }
 
-/* breadcrumb */
+/* breadcrumb start */
 
-.breadcrumb__area ul {
-    list-style: none;
-    display: flex;
-}
-
-.breadcrumb__area li {
+.breadcrumb__area {
     position: relative;
-    background: #333;
-    color: #Fff;
-    height: 40px;
-    padding: 0 20px 0 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1;
-    font-size: 18px;
+    text-align: center;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
 }
 
-.breadcrumb__area li::after {
-    content: '';
+.breadcrumb__area::after {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #333;
+    content: '';
+    left: 0;
     top: 0;
-    right: -10px;
-    z-index: 9;
-    border-right: 2px solid #fff;
-    transform: skewX(45deg);
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    opacity: .5;
 }
 
-.breadcrumb__area li::before {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #333;
-    bottom: 0;
-    right: -10px;
-    z-index: 9;
-    border-right: 2px solid #fff;
-    transform: skewX(-45deg);
-}
-
-.breadcrumb__area li a {
+.breadcrumb__area h2 {
     color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0 5px;
+    font-weight: 600;
 }
+
+/* breadcrumb end */
 
 /* heading */
 .section_heading h2 {
@@ -406,4 +392,15 @@ img {
     background: #4555f4;
     color: #fff;
     border: 1px solid transparent;
+}
+
+
+/* apply form */
+span.apply__button {
+    position: fixed;
+    right: -40px;
+    z-index: 99999;
+    top: 50%;
+    transform: rotate(90deg);
+    cursor: pointer;
 }
