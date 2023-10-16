@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 15px;
 }
 
@@ -107,7 +107,6 @@ img {
     height: 100%;
     width: 100%;
     color: var(--text-color);
-    font-family: 'Prompt', sans-serif;
     font-weight: 600;
     content: "\f053";
     display: grid;
@@ -118,7 +117,6 @@ img {
 }
 
 .slick-next::after {
-    font-family: 'Prompt', sans-serif;
     font-weight: 600;
     content: "\f054";
 }
@@ -198,6 +196,7 @@ img {
     text-align: center;
     padding: 100px 0;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 2;
@@ -261,6 +260,7 @@ img {
     line-height: 1;
     letter-spacing: 2px;
     overflow: hidden;
+    text-transform: uppercase;
     position: relative;
     font-weight: 600;
     z-index: 2;

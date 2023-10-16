@@ -27,6 +27,10 @@
 
 <body>
 
+    <!-- apply button -->
+
+    <span class="apply__button main_btn">apply now</span>
+
     <!-- header section -->
     <header class="header_section">
         <!-- top header -->
@@ -46,7 +50,7 @@
                                     <a href="tel:+01937563157">
                                         <span class="d-inline-block contact_header_icon"><i
                                                 class="fa-solid fa-phone"></i></span>
-                                        <span class="d-inline-block contact_header_text">+0000000000</span>
+                                        <span class="d-inline-block contact_header_text">+01937563157</span>
                                     </a>
                                 </li>
                                 <!-- email -->
@@ -74,10 +78,13 @@
                     <!-- digital clock -->
                     <div class="col-4 text-end">
                         <!-- clock -->
-                        <ul class="profile">
+                        <ul class="profile d-flex gap-2 justify-content-end">
                             <li class="header_nav_item">
-                                <a class="main_btn" href="">Login</a>
+                                <a class="main_btn" href="">login</a>
                             </li>
+                            <!-- <li class="header_nav_item">
+                                <a class="main_btn" href="">Registation</a>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -91,7 +98,7 @@
                     <div class="logo">
                         <a href="./index.html" class="logo_image">
                             <!-- logo imgae -->
-                            <img src="assets/image/logo2.svg" alt="" />
+                            <img src="assets/image/logo.svg" alt="" />
                         </a>
                     </div>
                     <!-- header nav -->
@@ -108,21 +115,37 @@
                             <li class="header_nav_item">
                                 <a class="header_nav_link" href="services.html">services</a>
                             </li>
-                            <li class="header_nav_item">
+                            <!-- <li class="header_nav_item">
                                 <a class="header_nav_link" href="university.html">university</a>
-                            </li>
+                            </li> -->
+
                             <li class="header_nav_item">
-                                <a class="header_nav_link" href="gallery.html">gallery</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="contact.html">contact</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="success.html">success history</a>
+                                <a class="header_nav_link">study abroad <span><i class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in India</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in India</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in India</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
 
                             <li class="header_nav_item">
-                                <a class="main_btn" href="">apply now</a>
+                                <a class="header_nav_link" href="country.html">country</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="payfees.html">pay fees</a>
+                            </li>
+
+                            <li class="header_nav_item">
+                                <a class="main_btn" href="contact.html">contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -143,7 +166,7 @@
             <div class="offcanvas-header">
                 <div class="nav_logo">
                     <a href="./index.html">
-                        <img src="assets/image/logo2.svg" alt="" />
+                        <img src="assets/image/logo.svg" alt="" />
                     </a>
                 </div>
                 <button type="button btn" data-bs-dismiss="offcanvas">
@@ -175,12 +198,12 @@
                                 <ul>
                                     <!-- Sub Nav list -->
                                     <!-- <li>
-                                                <a href="./aboutus.html">
-                                                    <p class="d-flex gap-2">
-                                                        <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
-                                                    </p>
-                                                </a>
-                                            </li> -->
+                                            <a href="./aboutus.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
+                                                </p>
+                                            </a>
+                                        </li> -->
                                 </ul>
                             </div>
                         </li>
@@ -194,17 +217,39 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="university.html">
+                            <a class="dropdown_button" href="#">
                                 <p class="d-flex gap-2">
-                                    <span>university</span>
+                                    <span>study abroad</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                            <a href="study_in_india.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">study in india</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="country.html">
+                                <p class="d-flex gap-2">
+                                    <span>gallery</span>
                                 </p>
                             </a>
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="gallery.html">
+                            <a href="payfees.html">
                                 <p class="d-flex gap-2">
-                                    <span>gallery</span>
+                                    <span>pay fees</span>
                                 </p>
                             </a>
                         </li>
@@ -218,7 +263,8 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a class="main_btn text-white" href="#" tabindex="0">apply now</a>
+                            <a class="main_btn btn_collapse btn_hover text-white justify-content-center" href="#"
+                                tabindex="0">apply now</a>
                         </li>
                     </ul>
                 </div>
@@ -237,7 +283,7 @@
     <div class="main">
 
         <!-- about start -->
-        <div class="about__area">
+        <div class="about__area pt-5 pb-5">
             <div class="container">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-6">

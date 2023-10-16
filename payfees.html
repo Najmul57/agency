@@ -27,6 +27,11 @@
 </head>
 
 <body>
+
+    <!-- apply button -->
+
+    <span class="apply__button main_btn">apply now</span>
+
     <!-- header section -->
     <header class="header_section">
         <!-- top header -->
@@ -46,7 +51,7 @@
                                     <a href="tel:+01937563157">
                                         <span class="d-inline-block contact_header_icon"><i
                                                 class="fa-solid fa-phone"></i></span>
-                                        <span class="d-inline-block contact_header_text">+0000000000</span>
+                                        <span class="d-inline-block contact_header_text">+01937563157</span>
                                     </a>
                                 </li>
                                 <!-- email -->
@@ -74,10 +79,13 @@
                     <!-- digital clock -->
                     <div class="col-4 text-end">
                         <!-- clock -->
-                        <ul class="profile">
+                        <ul class="profile d-flex gap-2 justify-content-end">
                             <li class="header_nav_item">
-                                <a class="main_btn" href="">Login</a>
+                                <a class="main_btn" href="">login</a>
                             </li>
+                            <!-- <li class="header_nav_item">
+                                    <a class="main_btn" href="">Registation</a>
+                                </li> -->
                         </ul>
                     </div>
                 </div>
@@ -91,7 +99,7 @@
                     <div class="logo">
                         <a href="./index.html" class="logo_image">
                             <!-- logo imgae -->
-                            <img src="assets/image/logo2.svg" alt="" />
+                            <img src="assets/image/logo.svg" alt="" />
                         </a>
                     </div>
                     <!-- header nav -->
@@ -108,21 +116,41 @@
                             <li class="header_nav_item">
                                 <a class="header_nav_link" href="services.html">services</a>
                             </li>
+                            <!-- <li class="header_nav_item">
+                                    <a class="header_nav_link" href="university.html">university</a>
+                                </li> -->
+
                             <li class="header_nav_item">
-                                <a class="header_nav_link" href="university.html">university</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="gallery.html">gallery</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="contact.html">contact</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="success.html">success history</a>
+                                <a class="header_nav_link">study abroad <span><i
+                                            class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in
+                                                India</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in
+                                                India</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in
+                                                India</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
 
                             <li class="header_nav_item">
-                                <a class="main_btn" href="">apply now</a>
+                                <a class="header_nav_link" href="country.html">country</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="payfees.html">pay fees</a>
+                            </li>
+
+                            <li class="header_nav_item">
+                                <a class="main_btn" href="contact.html">contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -143,7 +171,7 @@
             <div class="offcanvas-header">
                 <div class="nav_logo">
                     <a href="./index.html">
-                        <img src="assets/image/logo2.svg" alt="" />
+                        <img src="assets/image/logo.svg" alt="" />
                     </a>
                 </div>
                 <button type="button btn" data-bs-dismiss="offcanvas">
@@ -175,12 +203,12 @@
                                 <ul>
                                     <!-- Sub Nav list -->
                                     <!-- <li>
-                                            <a href="./aboutus.html">
-                                                <p class="d-flex gap-2">
-                                                    <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
-                                                </p>
-                                            </a>
-                                        </li> -->
+                                                <a href="./aboutus.html">
+                                                    <p class="d-flex gap-2">
+                                                        <span class="subnav_text">প্রতিষ্ঠান সম্পর্কে</span>
+                                                    </p>
+                                                </a>
+                                            </li> -->
                                 </ul>
                             </div>
                         </li>
@@ -194,17 +222,39 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="university.html">
+                            <a class="dropdown_button" href="#">
                                 <p class="d-flex gap-2">
-                                    <span>university</span>
+                                    <span>study abroad</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="study_in_india.html">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">study in india</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="country.html">
+                                <p class="d-flex gap-2">
+                                    <span>gallery</span>
                                 </p>
                             </a>
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="gallery.html">
+                            <a href="payfees.html">
                                 <p class="d-flex gap-2">
-                                    <span>gallery</span>
+                                    <span>pay fees</span>
                                 </p>
                             </a>
                         </li>
@@ -218,7 +268,8 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a class="main_btn text-white" href="#" tabindex="0">apply now</a>
+                            <a class="main_btn btn_collapse btn_hover text-white justify-content-center" href="#"
+                                tabindex="0">apply now</a>
                         </li>
                     </ul>
                 </div>
@@ -241,85 +292,92 @@
                 <form action="" method="post">
                     <div class="row">
                         <div class="col-md-8">
-                           <div class="student__info">
-                            <h3 class="mb-2">Student Information</h3>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="name">Name</label>
-                                        <input type="text" id="name" name="name" class="form-control"
-                                            placeholder="enter name">
+                            <div class="student__info">
+                                <h3 class="mb-2">Student Information</h3>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="name">Name</label>
+                                            <input type="text" id="name" name="name" class="form-control"
+                                                placeholder="enter name">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="email">Email</label>
-                                        <input type="email" id="email" name="email" class="form-control"
-                                            placeholder="enter email">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="registation">Registation Number</label>
+                                            <input type="text" id="registation" name="registation" class="form-control"
+                                                placeholder="enter registation">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="number">Email</label>
-                                        <input type="text" id="number" name="number" class="form-control"
-                                            placeholder="enter number">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email" name="email" class="form-control"
+                                                placeholder="enter email">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="country">Country/Region</label> <br>
-                                        <select name="country" id="country" class="country">
-                                            <option selected disabled>Select Couontry</option>
-                                            <option value="bangladesh">Bangladesh</option>
-                                            <option value="india">India</option>
-                                        </select>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="number">Email</label>
+                                            <input type="text" id="number" name="number" class="form-control"
+                                                placeholder="enter number">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="address">Street Address</label>
-                                        <input type="text" id="address" name="address" class="form-control"
-                                            placeholder="enter address">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="country">Country/Region</label> <br>
+                                            <select name="country" id="country" class="country">
+                                                <option selected disabled>Select Couontry</option>
+                                                <option value="bangladesh">Bangladesh</option>
+                                                <option value="india">India</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="address">Town/City</label>
-                                        <input type="text" id="city" name="city" class="form-control"
-                                            placeholder="enter city/town">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="address">Street Address</label>
+                                            <input type="text" id="address" name="address" class="form-control"
+                                                placeholder="enter address">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="district">District</label> <br>
-                                        <select name="district" id="district" class="district">
-                                            <option selected disabled>Select District</option>
-                                            <option value="bangladesh">Bangladesh</option>
-                                            <option value="india">India</option>
-                                        </select>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="address">Town/City</label>
+                                            <input type="text" id="city" name="city" class="form-control"
+                                                placeholder="enter city/town">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="zipcode">Zipcode (optional)</label>
-                                        <input type="text" id="zipcode" name="zipcode" class="form-control"
-                                            placeholder="enter zipcode">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="district">District</label> <br>
+                                            <select name="district" id="district" class="district">
+                                                <option selected disabled>Select District</option>
+                                                <option value="bangladesh">Bangladesh</option>
+                                                <option value="india">India</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group mb-3">
-                                        <label for="signatureImage">Upload Signature</label>
-                                        <input type="file" name="signature" class="form-control" id="signature">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="zipcode">Zipcode (optional)</label>
+                                            <input type="text" id="zipcode" name="zipcode" class="form-control"
+                                                placeholder="enter zipcode">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="signatureImage">Upload Signature</label>
+                                            <input type="file" name="signature" class="form-control" id="signature">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                           </div>
                         </div>
                         <div class="col-md-4">
                             <div class="payment__section">
-                                <h3 class="">Payment System</h3>                               
+                                <h3 class="">Payment System</h3>
                                 <div class="payment__system">
-                                      <div class="form-group">
+                                    <div class="form-group mt-2 mb-3">
                                         <label for="payment_type">Payment Type</label>
                                         <select name="payment_type" id="payment_type" class="payment_type">
                                             <option selected disabled>Select Type</option>
@@ -327,14 +385,47 @@
                                             <option value="tution_fee">Tution Fee</option>
                                         </select>
                                     </div>
-                                      <div class="form-group">
-                                        <input type="text" name="method_name" class="form-control" placeholder="bkash, nagod etc">
+                                    <div class="form-group">
+                                        <label for="payment_option">Currency</label>
+                                        <select name="payment_option" id="payment_option" class="payment_option"
+                                            onchange="toggleFields()">
+                                            <option selected disabled>Select Option</option>
+                                            <option value="bkash">Bkash</option>
+                                            <option value="nagod">Nagod</option>
+                                            <option value="bank">Bank Transfer</option>
+                                            <option value="usd">USD</option>
+                                            <option value="inr">INR</option>
+                                        </select>
                                     </div>
-                                      <div class="form-group">
-                                        <input type="text" name="trans_number" class="form-control" placeholder="transaction number">
+                                    <div class="form-group mt-3" id="trans_number" style="display: none">
+                                        <label for="trans_number">Transaction Number</label>
+                                        <input type="text" name="trans_number" class="form-control"
+                                            placeholder="transaction number">
                                     </div>
-                                      <div class="form-group">
-                                        <input type="text" name="send_amount" class="form-control" placeholder="amount">
+                                    <div class="form-group mt-3" id="bank_name" style="display: none">
+                                        <label for="bank_name">Bank Name</label>
+                                        <input type="text" name="bank_name" class="form-control"
+                                            placeholder="bank name">
+                                    </div>
+                                    <div class="form-group mt-3" id="bank_transaction" style="display: none">
+                                        <label for="bank_transaction">Upload Transaction Photo</label>
+                                        <input type="file" name="bank_transaction" class="form-control">
+                                    </div>
+                                    <div class="form-group mt-3" id="usd_amount" style="display: none">
+                                        <label for="usd_input">USD Amount</label>
+                                        <input type="text" name="usd_input" id="usd_input" class="form-control"
+                                            placeholder="USD Amount">
+                                    </div>
+                                    <div class="form-group mt-3" id="inr_amount" style="display: none">
+                                        <label for="inr_amount">INR Amount</label>
+                                        <input type="text" name="inr_amount" id="inr_amount_input" class="form-control"
+                                            placeholder="INR Amount">
+                                    </div>
+
+                                    <div class="form-group mt-4">
+                                        <label for="bdt_amount">BDT Amount</label>
+                                        <input type="text" name="bdt_amount" id="bdt_amount" class="form-control"
+                                            placeholder="BDT amount">
                                     </div>
                                     <button class="main_btn border-0 mt-3">Submit</button>
                                 </div>
@@ -487,6 +578,107 @@
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 
+
+    <script>
+        // Define the conversion rate ( indian rupy )
+        const indianRupyRate = 1.33; // 1 INR = 1.33 BDT
+
+        // Listen for input changes in the INR input field
+        document.getElementById("inr_amount_input").addEventListener("input", function () {
+            // Get the value of the INR input
+            const inrAmount = parseFloat(this.value);
+
+            // Check if the input is a valid number
+            if (!isNaN(inrAmount)) {
+                // Perform the conversion and update the BDT amount input field
+                const bdtAmount = inrAmount * indianRupyRate;
+                document.getElementById("bdt_amount").value = bdtAmount;
+            } else {
+                // Clear the BDT amount if the input is not a valid number
+                document.getElementById("bdt_amount").value = "";
+            }
+        });
+
+        // Define the conversion rate (1 USD = 100 BDT)
+        const usdRate = 100;
+
+        // Listen for input changes in the USD input field
+        document.getElementById("usd_input").addEventListener("input", function () {
+            // Get the value of the USD input
+            const usdAmount = parseFloat(this.value);
+
+            // Check if the input is a valid number
+            if (!isNaN(usdAmount)) {
+                // Perform the conversion and update the BDT amount input field
+                const bdtAmount = usdAmount * usdRate;
+                document.getElementById("bdt_amount").value = bdtAmount;
+            } else {
+                // Clear the BDT amount if the input is not a valid number
+                document.getElementById("bdt_amount").value = "";
+            }
+        });        
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Initial state: Disable BDT Amount
+            $("#bdt_amount").prop('disabled', true);
+
+            // Listen for changes in the currency select field
+            $("#payment_option").change(function () {
+                if ($(this).val() === "usd" || $(this).val() === "inr") {
+                    // If USD or INR is selected, disable BDT Amount
+                    $("#bdt_amount").prop('disabled', true);
+                } else {
+                    // If neither USD nor INR is selected, enable BDT Amount
+                    $("#bdt_amount").prop('disabled', false);
+                }
+            });
+        });
+    </script>
+
+    <script>
+        function toggleFields() {
+            var paymentOption = document.getElementById("payment_option");
+            var transNumberField = document.getElementById("trans_number");
+            var bankTransactionField = document.getElementById("bank_transaction");
+            var bankTransactionFieldName = document.getElementById("bank_name");
+            var usdTransactionFieldName = document.getElementById("usd_amount");
+            var inrTransactionFieldName = document.getElementById("inr_amount");
+
+            if (paymentOption.value === "bkash" || paymentOption.value === "nagod") {
+                transNumberField.style.display = "block";
+                bankTransactionField.style.display = "none";
+                bankTransactionFieldName.style.display = "none";
+                usdTransactionFieldName.style.display = "none";
+                inrTransactionFieldName.style.display = "none";
+            } else if (paymentOption.value === "bank") {
+                transNumberField.style.display = "none";
+                bankTransactionField.style.display = "block";
+                bankTransactionFieldName.style.display = "block";
+                usdTransactionFieldName.style.display = "none";
+                inrTransactionFieldName.style.display = "none";
+            } else if (paymentOption.value === "usd") {
+                transNumberField.style.display = "none";
+                bankTransactionField.style.display = "none";
+                bankTransactionFieldName.style.display = "none";
+                usdTransactionFieldName.style.display = "block";
+                inrTransactionFieldName.style.display = "none";
+            } else if (paymentOption.value === "inr") {
+                transNumberField.style.display = "none";
+                bankTransactionField.style.display = "none";
+                bankTransactionFieldName.style.display = "none";
+                usdTransactionFieldName.style.display = "none";
+                inrTransactionFieldName.style.display = "block";
+            } else {
+                transNumberField.style.display = "none";
+                bankTransactionField.style.display = "none";
+                bankTransactionFieldName.style.display = "none";
+                usdTransactionFieldName.style.display = "none";
+                inrTransactionFieldName.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>

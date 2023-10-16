@@ -183,3 +183,4 @@ $('.masters__course__select').select2();
 $('.country').select2();
 $('.payment_type').select2();
 $('.district').select2();
+$('.payment_option').select2();

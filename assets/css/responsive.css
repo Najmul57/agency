@@ -63,6 +63,30 @@
         justify-content: end;
         margin-right: 20px;
     }
+    .single__slider img {
+        height: 50vh;
+    }
+    .advanced__search {
+        max-width: 300px;
+    }
+    .advanced__search h1 {
+        font-size: 25px;
+    }
+    .advanced__search form input {
+        padding: 10px;
+    }
+    .advanced__search ul {
+        display: block !important;
+        text-align: center;
+    }
+    .advanced__search ul li a {
+        border-radius: 5px;
+    }
+    .breadcrumb__area h2 {
+        font-size: 30px;
+    }.study_country_headline, .study_country_headline span {
+        font-size: 30px;
+    }
 }
 
 /* Large Mobile :480px. */

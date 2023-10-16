@@ -32,7 +32,7 @@
 
 
 .logo a {
-    width: 100px;
+    width: 150px;
     display: flex;
     align-items: center;
 }
@@ -59,6 +59,7 @@
     color: var(--text-color);
     text-transform: uppercase;
     display: flex;
+    cursor: pointer;
     align-items: center;
     gap: 6px;
     line-height: 1;
@@ -86,7 +87,7 @@
     left: 50%;
     transform: translateX(-50%);
     background: var(--primary-bg);
-    padding: 10px 15px;
+    padding: 10px;
     width: 220px;
     transition: var(--transition);
     box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
@@ -95,7 +96,7 @@
     transition: var(--transition);
     max-height: 0px;
     overflow: hidden;
-    z-index: 2;
+    z-index: 99;
 }
 
 .header_nav_item:hover .sub_menu {
@@ -122,7 +123,6 @@
 .header_nav_item:not(:last-child) .sub_menu_link {
     margin-bottom: 5px;
 }
-
 
 
 /* Mobile Nav */
@@ -284,6 +284,69 @@ span.vission__card__content p {
 /* about end */
 
 /* banner start */
+.advanced__search h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.advanced__search h1::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    z-index: -1;
+}
+
+.advanced__search ul li a {
+    background: #000;
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+    animation: textAnimation 2s infinite;
+    padding: 5px 10px;
+    margin-top: 15px;
+    /* animation: backgroundAnimation 2s infinite; */
+    border-radius: 5px;
+    font-size: 18px;
+    transition: var(--transition);
+}
+
+.advanced__search ul li a:hover {
+    animation-play-state: paused;
+    /* Pause the animation on hover */
+    color: green;
+    /* Change text color on hover (optional) */
+}
+
+@keyframes textAnimation {
+    0% {
+        color: #fff;
+    }
+
+    50% {
+        color: #F2382C;
+    }
+
+    100% {
+        color: #fff;
+    }
+}
+
+
+.advanced__search ul {
+    gap: 10px;
+}
+
 .section_heading span {
     position: absolute;
     top: 50%;
@@ -294,11 +357,15 @@ span.vission__card__content p {
     transform: translateY(-50%);
     right: 0;
 }
-
-.advanced__search input {
+.advanced__search form input {
+    padding: 15px;
+    width: 100%;
+    border: none;
+}
+/* .advanced__search input {
     padding: 15px;
     width: 500px;
-}
+} */
 
 .advanced__search input:focus {
     border-color: none;
@@ -334,10 +401,11 @@ span.vission__card__content p {
 .advanced__search {
     position: absolute;
     top: 50%;
+    max-width: 500px;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
-
 /* banner end */
 
 /* courses start */
@@ -839,29 +907,34 @@ a.single__course:hover img {
 
 /* blog details start */
 .blog__list ul li a img {
-    width: 80px;
+    width: 30px;
     margin-right: 10px;
     border-radius: 5px;
-    height: 60px;
+    height: 30px;
     object-fit: cover;
 }
 
 .blog__list ul li a {
     display: flex;
+    align-items: center;
 }
 
 .blog__list ul li a h4 {
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
+    font-weight: 400;
 }
 
-.blog__list ul {
-    gap: 10px;
-}
 
 .blog__list h3 {
     text-transform: capitalize;
-    margin-bottom: 20px;
+    background: #01479b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+}.blog__list ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .blog__details__content h5 {
@@ -1023,8 +1096,9 @@ a.single__course:hover img {
 }
 
 .university__info .nav-tabs .nav-item button.nav-link.active {
-    color: #01479b;
-    border-bottom: 1px solid #ddd;
+    color: #fff;
+    border-bottom: none;
+    background: #F2382C;
 }
 
 .university__about__content__hidden {
@@ -1091,7 +1165,9 @@ ul.university__facilities li:hover {
     margin-bottom: 10px;
     border-radius: 5px;
 }
-
+.university__fees_table .fees span:nth-child(2) {
+    color: #F2382C;
+}
 .university__fees_table:last-child {
     margin-bottom: 0;
 }

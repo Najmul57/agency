@@ -29,6 +29,10 @@
 
 <body>
 
+    <!-- apply button -->
+
+    <span class="apply__button main_btn">apply now</span>
+
     <!-- header section -->
     <header class="header_section">
         <!-- top header -->
@@ -76,10 +80,13 @@
                     <!-- digital clock -->
                     <div class="col-4 text-end">
                         <!-- clock -->
-                        <ul class="profile">
+                        <ul class="profile d-flex gap-2 justify-content-end">
                             <li class="header_nav_item">
                                 <a class="main_btn" href="">login</a>
                             </li>
+                            <!-- <li class="header_nav_item">
+                                <a class="main_btn" href="">Registation</a>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -93,7 +100,7 @@
                     <div class="logo">
                         <a href="./index.html" class="logo_image">
                             <!-- logo imgae -->
-                            <img src="assets/image/logo2.svg" alt="" />
+                            <img src="assets/image/logo.svg" alt="" />
                         </a>
                     </div>
                     <!-- header nav -->
@@ -103,25 +110,44 @@
                                 <a class="header_nav_link" href="./index.html">home</a>
                             </li>
                             <li class="header_nav_item">
-                                <a class="header_nav_link" href="">about
+                                <a class="header_nav_link" href="about.html">about
                                     <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
                                 </a>
                             </li>
                             <li class="header_nav_item">
-                                <a class="header_nav_link" href="#">services</a>
+                                <a class="header_nav_link" href="services.html">services</a>
                             </li>
+                            <!-- <li class="header_nav_item">
+                                <a class="header_nav_link" href="university.html">university</a>
+                            </li> -->
+
                             <li class="header_nav_item">
-                                <a class="header_nav_link" href="#">university</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="./gallrypage.html">gallery</a>
-                            </li>
-                            <li class="header_nav_item">
-                                <a class="header_nav_link" href="./contactus.html">contact</a>
+                                <a class="header_nav_link">study abroad <span><i class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in India</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in India</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="study_in_india.html" class="sub_menu_link"> <span></span>Study in India</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
 
                             <li class="header_nav_item">
-                                <a class="main_btn" href="">apply now</a>
+                                <a class="header_nav_link" href="country.html">country</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="payfees.html">pay fees</a>
+                            </li>
+
+                            <li class="header_nav_item">
+                                <a class="main_btn" href="contact.html">contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -142,7 +168,7 @@
             <div class="offcanvas-header">
                 <div class="nav_logo">
                     <a href="./index.html">
-                        <img src="assets/image/logo2.svg" alt="" />
+                        <img src="assets/image/logo.svg" alt="" />
                     </a>
                 </div>
                 <button type="button btn" data-bs-dismiss="offcanvas">
@@ -163,7 +189,7 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a class="dropdown_button">
+                            <a class="dropdown_button" href="about.html">
                                 <p class="d-flex gap-2">
                                     <span>about</span>
                                 </p>
@@ -185,7 +211,7 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="#">
+                            <a href="services.html">
                                 <p class="d-flex gap-2">
                                     <span>services</span>
                                 </p>
@@ -193,15 +219,29 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="#">
+                            <a class="dropdown_button" href="#">
                                 <p class="d-flex gap-2">
-                                    <span>university</span>
+                                    <span>study abroad</span>
                                 </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                            <a href="study_in_india.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">study in india</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </div>
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="./gallrypage.html">
+                            <a href="country.html">
                                 <p class="d-flex gap-2">
                                     <span>gallery</span>
                                 </p>
@@ -209,7 +249,15 @@
                         </li>
                         <!-- item -->
                         <li>
-                            <a href="./contactus.html">
+                            <a href="payfees.html">
+                                <p class="d-flex gap-2">
+                                    <span>pay fees</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="contact.html">
                                 <p class="d-flex gap-2">
                                     <span>contact</span>
                                 </p>
