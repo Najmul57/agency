@@ -15,7 +15,7 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
     .section_heading h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .single-service img {
         width: 100px;
@@ -67,7 +67,7 @@
         height: 50vh;
     }
     .advanced__search {
-        max-width: 300px;
+        max-width: 320px;
     }
     .advanced__search h1 {
         font-size: 25px;
@@ -87,10 +87,15 @@
     }.study_country_headline, .study_country_headline span {
         font-size: 30px;
     }
+    .university__course__list {
+        display: block !important;
+    }
 }
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+    .advanced__search {
+        max-width: 450px;
+    }
     
 }

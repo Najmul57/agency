@@ -1365,3 +1365,17 @@ form.apply__form textarea:focus {
 .payfee__form input {
     padding: 10px;
 }
+.payment__section ul li {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 600;
+}
+.payment__section ul li p{
+    font-size: 18px;
+}
+.payment__section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
