@@ -107,6 +107,21 @@
     .sidebar__single__universitiy .main_btn {
       margin-top: 10px;
     }
+    
+.university__fees_table .fees {
+    display: block !important;
+  }
+  .university__fees_table .fees span {
+    width: 100% !important;
+    display: block;
+    text-align: start;
+  }
+  .university__fees_table .fees span:last-child {
+    text-align: start !important;
+  }
+  .university__fees_heading {
+    display: none;
+  }
 }
 
 /* Large Mobile :480px. */
