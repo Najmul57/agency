@@ -8,7 +8,12 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    .university__fees_table .action {
+        display: block !important;
+    }
+    .university__fees_table .title {
+        margin-bottom: 10px;
+    } 
 }
 
 
@@ -89,6 +94,18 @@
     }
     .university__course__list {
         display: block !important;
+    }
+    .university__fees_table .action {
+        display: block !important;
+    }
+    .university__fees_table .title {
+        margin-bottom: 10px;
+    }
+    .sidebar__single__universitiy {
+      display: block !important;
+    }
+    .sidebar__single__universitiy .main_btn {
+      margin-top: 10px;
     }
 }
 
