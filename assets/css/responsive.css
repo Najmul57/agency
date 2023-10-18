@@ -145,6 +145,13 @@
     .university__fees_heading {
         display: none;
     }
+    ul.university__facilities {
+        gap: 5px;
+        padding: 2px;
+    }
+    ul.university__facilities li {
+        padding: 5px;
+    }
 }
 
 /* Large Mobile :480px. */
