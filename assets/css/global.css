@@ -226,11 +226,14 @@ img {
 /* breadcrumb end */
 
 /* heading */
+.section__padding {
+    padding: 50px 0;
+}
 .section_heading h2 {
-    color: transparent;
-    font-size: 50px;
+    /* color: transparent; */
+    font-size: 40px;
     line-height: 42px;
-    font-weight: 600;
+    font-weight: 700;
     white-space: nowrap;
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;

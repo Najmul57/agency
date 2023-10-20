@@ -786,6 +786,7 @@ a.single__course:hover img {
 .review__author {
     text-align: center;
     margin-top: -50px;
+    padding-bottom: 20px;
 }
 
 .single__review {
@@ -870,9 +871,10 @@ a.single__course:hover img {
     overflow: hidden;
     max-height: 270px;
     height: 100%;
+    border: 1px solid #ddd;
     min-height: 270px;
+    border-radius: 10px;
 }
-
 /* gallery end*/
 
 
@@ -880,6 +882,7 @@ a.single__course:hover img {
 .contact__form input,
 .contact__form textarea {
     background: #F9F9F9;
+    padding: 10px;
 }
 
 .contact__form input:focus,
