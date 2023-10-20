@@ -795,7 +795,9 @@ a.single__course:hover img {
     border: 1px solid #ddd;
     border-radius: 10px;
 }
-
+.mobile_nav .main_btn {
+	padding: 10px;
+}
 .review__author h5 {
     text-transform: capitalize;
     letter-spacing: 3px;
